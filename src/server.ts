@@ -7,7 +7,6 @@ import session from 'express-session'
 import cookieParser from 'cookie-parser'
 import taskRouter from './app/router/taskRepository.js';
 import postRouter from './app/router/postRepository.js';
-import path from 'path';
 
 const app = express()
 
